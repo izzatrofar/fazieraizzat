@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Faziera & Izzat</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background-image: url('https://uploadthing.com/f/file-MAZ23H4e1sKM8jViBn5fsE');
+      background-size: cover;
+      background-position: center;
+      padding: 100px 20px;
+      color: white;
+    }
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.5rem;
+    }
+    .details, .rsvp, .location {
+      padding: 40px 20px;
+    }
+    .section-title {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    .map {
+      width: 100%;
+      max-width: 600px;
+      height: 300px;
+      margin: 20px auto;
+      border: none;
+    }
+    audio {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Faziera & Izzat</h1>
+    <p>30 & 31 Ogos 2025</p>
+  </header>
+
+  <section class="details">
+    <h2 class="section-title">Jemputan</h2>
+    <p>Dengan segala hormatnya ingin menjemput Dato’/Datin/Tuan/Puan/Encik/Cik serta seisi keluarga ke majlis perkahwinan puteri kami.</p>
+    <p><strong>Tarikh:</strong> 30 & 31 Ogos 2025</p>
+    <p><strong>Lokasi:</strong> NO 11A JALAN 9 TAMAN CEMPAKA SARI 45600 IJOK BESTARI JAYA</p>
+  </section>
+
+  <section class="rsvp">
+    <h2 class="section-title">RSVP</h2>
+    <p>Kamaruddin bin Mahat - 0163166784</p>
+    <p>Margiyana binti Kamari</p>
+    <p>Kakak Farah - 016-3659512</p>
+    <p>Abang Daus - 012-3280207</p>
+  </section>
+
+  <section class="location">
+    <h2 class="section-title">Lokasi Majlis</h2>
+    <iframe class="map" src="https://www.google.com/maps?q=NO+11A+JALAN+9+TAMAN+CEMPAKA+SARI+45600+IJOK+BESTARI+JAYA&output=embed"></iframe>
+  </section>
+
+  <footer>
+    <audio controls autoplay loop>
+      <source src="https://example.com/satu-shaf-di-belakangku.mp3" type="audio/mpeg">
+      Lagu tidak dapat dimainkan.
+    </audio>
+    <p>&copy; 2025 Faziera & Izzat</p>
+  </footer>
+</body>
+</html>
